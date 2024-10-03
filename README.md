@@ -16,3 +16,7 @@ Username dicoding: andrymldni
 | Arsitektur model | Arsitektur model yang diterapkan adalah model embedding, yang terdiri dari layer vectorization, diikuti oleh layer embedding dengan dimensi embedding sebesar 16. Selanjutnya, digunakan layer AveragePooling1D karena data berbentuk teks, kemudian layer dense dengan 64 dan 32 neuron menggunakan aktivasi ReLU dan sigmoid, karena model ini akan melakukan klasifikasi antara dua label. Fungsi loss yang digunakan adalah binary_crossentropy, dengan optimizer Adam dan metrik BinaryAccuracy. |
 | Metrik evaluasi | Metrik evaluasi yang diterapkan meliputi ExampleCount, AUC, FalsePositives, TruePositives, FalseNegatives, TrueNegatives, serta BinaryAccuracy. |
 | Performa model | Hasil evaluasi model menunjukkan AUC sebesar 83%, dengan jumlah contoh sebanyak 575, BinaryAccuracy mencapai 74%, dan loss sebesar 1.456. Selain itu, terdapat 86 False Negatives, 62 False Positives, 214 True Negatives, dan 213 True Positives. Model yang telah dikembangkan masih memiliki potensi untuk ditingkatkan, mengingat BinaryAccuracy masih di bawah 80%. |
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0973a95f-24ad-44aa-906d-2115f50d5d9c" alt="dicoding">
+</p>
